@@ -25,10 +25,10 @@ The abundance matrix used here excludes Day 6.
 ### Load input data
 
     #The abundance data 
-    load(file = paste0("/Bigdata/Dropbox (Technion Dropbox)/Rina_Benel/Home/BKU/Mizrahi_veronica/data/SpeciesMergedDesignFirstSecond_NoSixthDayNoNew.RData"))
+    load(file = paste0(getwd(), "/SpeciesMergedDesignFirstSecond_NoSixthDayNoNew.RData"))
 
     #The experimental design 
-    load(file = paste0("/Bigdata/Dropbox (Technion Dropbox)/Rina_Benel/Home/BKU/Mizrahi_veronica/data/SpeciesMergedDataFirstSecond_NoSixthDayNoNew.RData"))
+    load(file = paste0(getwd(), "/SpeciesMergedDataFirstSecond_NoSixthDayNoNew.RData"))
 
 #### Filter the data:
 
