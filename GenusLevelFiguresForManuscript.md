@@ -25,10 +25,10 @@ The abundance matrix used here excludes Day 6.
 ### Load input data
 
     #The experimental design 
-    load(file = paste0(getwd(), "GenusMergedDesignFirstSecond_NoSixthDayNoNew.RData"))
+    load(file = paste0(getwd(), "/GenusMergedDesignFirstSecond_NoSixthDayNoNew.RData"))
 
     #The abundance data 
-    load(file = paste0(getwd(), "GenusMergedDataFirstSecond_NoSixthDayNoNew.RData"))
+    load(file = paste0(getwd(), "/GenusMergedDataFirstSecond_NoSixthDayNoNew.RData"))
 
 #### Filter the data
 
